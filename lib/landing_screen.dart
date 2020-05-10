@@ -43,7 +43,9 @@ class _LandingScreenState extends State<LandingScreen> {
             }),
           ),
         ),
-        SizedBox(height: wp(6),),
+        SizedBox(
+          height: wp(6),
+        ),
         Center(
           child: Container(
             height: hp(6),
@@ -57,7 +59,9 @@ class _LandingScreenState extends State<LandingScreen> {
             }),
           ),
         ),
-        SizedBox(height: wp(6),),
+        SizedBox(
+          height: wp(6),
+        ),
         Center(
           child: Container(
             height: hp(6),
@@ -71,7 +75,9 @@ class _LandingScreenState extends State<LandingScreen> {
             }),
           ),
         ),
-         SizedBox(height: wp(6),),
+        SizedBox(
+          height: wp(6),
+        ),
         Center(
           child: Container(
             height: hp(6),
@@ -82,6 +88,22 @@ class _LandingScreenState extends State<LandingScreen> {
                 fontSize: AppStyles.fontSize(17),
                 radius: 0, onClick: () {
               Navigator.pushNamed(context, '/ask_me_anything');
+            }),
+          ),
+        ),
+        SizedBox(
+          height: wp(6),
+        ),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Xylophone",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/xylophone_home');
             }),
           ),
         )
