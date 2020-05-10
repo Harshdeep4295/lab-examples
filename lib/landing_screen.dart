@@ -37,7 +37,13 @@ class _LandingScreenState extends State<LandingScreen> {
             child: AppStyles.button("I am Rich",
                 textColor: AppColors.deepChapagne,
                 fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),radius: 0),
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(
+                context,
+                '/rich_home'
+              );
+            }),
           ),
         )
       ],
