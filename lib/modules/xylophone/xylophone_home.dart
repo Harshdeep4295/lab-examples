@@ -50,7 +50,7 @@ class _XylophoneState extends State<Xylophone> {
     return Expanded(
       child: FlatButton(
         onPressed: () => onPresseds(key),
-        color: color,
+        color: color, child: Container(),
       ),
     );
   }
