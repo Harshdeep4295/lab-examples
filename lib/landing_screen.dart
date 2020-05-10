@@ -39,10 +39,21 @@ class _LandingScreenState extends State<LandingScreen> {
                 fontWeight: FontWeight.w600,
                 fontSize: AppStyles.fontSize(17),
                 radius: 0, onClick: () {
-              Navigator.pushNamed(
-                context,
-                '/rich_home'
-              );
+              Navigator.pushNamed(context, '/rich_home');
+            }),
+          ),
+        ),
+        SizedBox(height: wp(6),),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("MI Card",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/mi_card');
             }),
           ),
         )

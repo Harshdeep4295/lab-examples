@@ -19,6 +19,8 @@ class AppStyles {
   static TextStyle textStyle(Color color, double fontSize,
       {FontWeight fontWeight,
       FontStyle fontStyle,
+      String fontFamily,
+      int letterSpacing,
       double heightInline,
       TextDecoration decoration}) {
     return TextStyle(
@@ -27,6 +29,8 @@ class AppStyles {
         fontWeight: fontWeight == null ? FontWeight.w500 : fontWeight,
         fontStyle: fontStyle == null ? FontStyle.normal : fontStyle,
         height: heightInline == null ? 1 : heightInline,
+        letterSpacing: letterSpacing !=null?letterSpacing:1,
+        fontFamily: fontFamily != null ? fontFamily : 'Source Sans Pro',
         decoration: decoration != null ? decoration : TextDecoration.none);
   }
 
@@ -36,6 +40,8 @@ class AppStyles {
       FontWeight fontWeight,
       TextAlign textAlign,
       FontStyle fontStyle,
+      int letterSpacing,
+      String fontFamily,
       double heightInline}) {
     return Text(
       text,
@@ -46,11 +52,12 @@ class AppStyles {
               : AppStyles.fontSize(fontSize),
           fontWeight: fontWeight == null ? FontWeight.w600 : fontWeight,
           fontStyle: fontStyle,
+          fontFamily: fontFamily,
+          letterSpacing: letterSpacing,
           heightInline: heightInline),
       textAlign: textAlign != null ? textAlign : TextAlign.start,
     );
   }
-
 
   static Widget divider(Color color,
       [double width,
@@ -107,11 +114,12 @@ class AppStyles {
           maxLines: 1,
           softWrap: false,
           style: textStyle(
-              textColor,
-              fontSize == null
-                  ? AppStyles.fontSize(16)
-                  : AppStyles.fontSize(fontSize),
-              fontWeight: fontWeight == null ? FontWeight.w600 : fontWeight,),
+            textColor,
+            fontSize == null
+                ? AppStyles.fontSize(16)
+                : AppStyles.fontSize(fontSize),
+            fontWeight: fontWeight == null ? FontWeight.w600 : fontWeight,
+          ),
         ),
       ),
     );
