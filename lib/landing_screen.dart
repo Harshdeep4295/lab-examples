@@ -106,6 +106,22 @@ class _LandingScreenState extends State<LandingScreen> {
               Navigator.pushNamed(context, '/xylophone_home');
             }),
           ),
+        ),
+        SizedBox(
+          height: wp(6),
+        ),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Quizzler",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/quizzler');
+            }),
+          ),
         )
       ],
     ));

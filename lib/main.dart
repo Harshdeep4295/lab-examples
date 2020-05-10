@@ -5,6 +5,7 @@ import 'package:lab_examples/modules/ask_me_anything/ask_me_anything_home.dart';
 import 'package:lab_examples/modules/dice/dice_game_home.dart';
 import 'package:lab_examples/modules/i_am_rich/i_am_rich_home.dart';
 import 'package:lab_examples/modules/mi_card/mi_card_home.dart';
+import 'package:lab_examples/modules/quizzare/quizarre_home.dart';
 import 'package:lab_examples/modules/xylophone/xylophone_home.dart';
 
 // Stating point of application
@@ -32,6 +33,7 @@ class _AppState extends State<App> {
         '/dice_game': (context) => DiceGame(),
         '/ask_me_anything': (context) => AskMeAnything(),
         '/xylophone_home': (context) => Xylophone(),
+        '/quizzler': (context) => Quizzler(),
       },
     );
   }
