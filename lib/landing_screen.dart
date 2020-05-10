@@ -56,6 +56,20 @@ class _LandingScreenState extends State<LandingScreen> {
               Navigator.pushNamed(context, '/mi_card');
             }),
           ),
+        ),
+        SizedBox(height: wp(6),),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Dice game",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/dice_game');
+            }),
+          ),
         )
       ],
     ));
