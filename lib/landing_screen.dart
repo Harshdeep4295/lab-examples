@@ -122,6 +122,22 @@ class _LandingScreenState extends State<LandingScreen> {
               Navigator.pushNamed(context, '/quizzler');
             }),
           ),
+        ),
+        SizedBox(
+          height: wp(6),
+        ),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Destiny",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/destiny');
+            }),
+          ),
         )
       ],
     ));
