@@ -70,6 +70,20 @@ class _LandingScreenState extends State<LandingScreen> {
               Navigator.pushNamed(context, '/dice_game');
             }),
           ),
+        ),
+         SizedBox(height: wp(6),),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Ask Me Anything",
+                textColor: AppColors.deepChapagne,
+                fontWeight: FontWeight.w600,
+                fontSize: AppStyles.fontSize(17),
+                radius: 0, onClick: () {
+              Navigator.pushNamed(context, '/ask_me_anything');
+            }),
+          ),
         )
       ],
     ));
