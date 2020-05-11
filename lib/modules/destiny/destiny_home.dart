@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lab_examples/appstyles/app_colors.dart';
-import 'package:lab_examples/appstyles/app_styles.dart';
-import 'package:lab_examples/modules/destiny/story_brain.dart';
+import 'package:lab_experiments/appstyles/app_colors.dart';
+import 'package:lab_experiments/appstyles/app_styles.dart';
+import 'package:lab_experiments/modules/destiny/story_brain.dart';
 
 class Destiny extends StatefulWidget {
   @override

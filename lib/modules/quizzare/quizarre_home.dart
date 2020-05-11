@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lab_examples/appstyles/app_colors.dart';
-import 'package:lab_examples/appstyles/app_styles.dart';
-import 'package:lab_examples/modules/quizzare/quiz_page.dart';
+import 'package:lab_experiments/appstyles/app_colors.dart';
+import 'package:lab_experiments/appstyles/app_styles.dart';
+import 'package:lab_experiments/modules/quizzare/quiz_page.dart';
 
 class Quizzler extends StatelessWidget {
   @override
