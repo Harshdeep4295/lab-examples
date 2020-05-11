@@ -24,7 +24,7 @@ class AppStyles {
       double heightInline,
       TextDecoration decoration}) {
     return TextStyle(
-        color: color == null ? AppColors.black : color,
+        color: color == null ? AppColors.darkColor : color,
         fontSize: fontSize,
         fontWeight: fontWeight == null ? FontWeight.w500 : fontWeight,
         fontStyle: fontStyle == null ? FontStyle.normal : fontStyle,
@@ -89,7 +89,7 @@ class AppStyles {
       Color hoverColor}) {
     return FlatButton(
       materialTapTargetSize: MaterialTapTargetSize.padded,
-      color: bgColor == null ? AppColors.paradisePink : bgColor,
+      color: bgColor == null ? AppColors.antiqueBrass : bgColor,
       splashColor: splashColor != null
           ? splashColor
           : (textColor != null

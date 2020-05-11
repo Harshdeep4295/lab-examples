@@ -27,7 +27,8 @@ dependencies:
   flutter_responsive_screen: ^1.0.0
   audioplayers: ^0.10.0
   rflutter_alert: ^1.0.2
-
+  font_awesome_flutter: ^8.4.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
