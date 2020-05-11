@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_responsive_screen/flutter_responsive_screen.dart';
 import 'package:flutter_screenutil/screenutil.dart';
-import 'package:lab_examples/appstyles/app_colors.dart';
-import 'package:lab_examples/appstyles/app_styles.dart';
+import 'package:lab_experiments/appstyles/app_colors.dart';
+import 'package:lab_experiments/appstyles/app_styles.dart';
 
 class LandingScreen extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab_examples/modules/quizzare/models/quiz_brain.dart';
+import 'package:lab_experiments/modules/quizzare/models/quiz_brain.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class QuizPage extends StatefulWidget {

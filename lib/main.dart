@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lab_examples/appstyles/app_colors.dart';
-import 'package:lab_examples/landing_screen.dart';
-import 'package:lab_examples/modules/ask_me_anything/ask_me_anything_home.dart';
-import 'package:lab_examples/modules/destiny/destiny_home.dart';
-import 'package:lab_examples/modules/dice/dice_game_home.dart';
-import 'package:lab_examples/modules/i_am_rich/i_am_rich_home.dart';
-import 'package:lab_examples/modules/mi_card/mi_card_home.dart';
-import 'package:lab_examples/modules/quizzare/quizarre_home.dart';
-import 'package:lab_examples/modules/xylophone/xylophone_home.dart';
+import 'package:lab_experiments/appstyles/app_colors.dart';
+import 'package:lab_experiments/landing_screen.dart';
+import 'package:lab_experiments/modules/ask_me_anything/ask_me_anything_home.dart';
+import 'package:lab_experiments/modules/destiny/destiny_home.dart';
+import 'package:lab_experiments/modules/dice/dice_game_home.dart';
+import 'package:lab_experiments/modules/i_am_rich/i_am_rich_home.dart';
+import 'package:lab_experiments/modules/mi_card/mi_card_home.dart';
+import 'package:lab_experiments/modules/quizzare/quizarre_home.dart';
+import 'package:lab_experiments/modules/xylophone/xylophone_home.dart';
 
 // Stating point of application
 void main() {

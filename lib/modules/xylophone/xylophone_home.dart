@@ -1,7 +1,7 @@
 import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
-import 'package:lab_examples/appstyles/app_colors.dart';
-import 'package:lab_examples/appstyles/app_styles.dart';
+import 'package:lab_experiments/appstyles/app_colors.dart';
+import 'package:lab_experiments/appstyles/app_styles.dart';
 
 class Xylophone extends StatefulWidget {
   @override
