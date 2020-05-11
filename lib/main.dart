@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lab_experiments/appstyles/app_colors.dart';
 import 'package:lab_experiments/landing_screen.dart';
 import 'package:lab_experiments/modules/ask_me_anything/ask_me_anything_home.dart';
+import 'package:lab_experiments/modules/bmi_calculator/Screens/bmi_calculator_home.dart';
 import 'package:lab_experiments/modules/destiny/destiny_home.dart';
 import 'package:lab_experiments/modules/dice/dice_game_home.dart';
 import 'package:lab_experiments/modules/i_am_rich/i_am_rich_home.dart';
@@ -24,8 +25,11 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primaryColor: AppColors.deepChapagne,
+      theme: ThemeData.dark().copyWith(
+        primaryColor: AppColors.darkColor,
+        accentColor: AppColors.paradisePink,
+        scaffoldBackgroundColor: AppColors.darkColor,
+        appBarTheme: AppBarTheme(color: AppColors.darkColor,brightness: Brightness.light,),
       ),
       home: LandingScreen(),
       routes: {
@@ -36,6 +40,7 @@ class _AppState extends State<App> {
         '/xylophone_home': (context) => Xylophone(),
         '/quizzler': (context) => Quizzler(),
         '/destiny': (context) => Destiny(),
+        '/bmi_calculator': (context) => BMICalculator(),
       },
     );
   }

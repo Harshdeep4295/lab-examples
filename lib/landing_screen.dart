@@ -21,8 +21,8 @@ class _LandingScreenState extends State<LandingScreen> {
     Function wp = Screen(MediaQuery.of(context).size).wp;
     ScreenUtil.init(context, width: 480, height: 810, allowFontScaling: true);
     final appBar = AppBar(
-      title: AppStyles.textwidget("Welcome",
-          color: AppColors.black, heightInline: 1.5),
+      title: AppStyles.textwidget("Lab Experiments",
+          color: AppColors.antiqueBrass, heightInline: 1.5),
     );
 
     final body = SafeArea(
@@ -34,11 +34,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("I am Rich",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("I am Rich", onClick: () {
               Navigator.pushNamed(context, '/rich_home');
             }),
           ),
@@ -50,11 +46,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("MI Card",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("MI Card", onClick: () {
               Navigator.pushNamed(context, '/mi_card');
             }),
           ),
@@ -66,11 +58,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("Dice game",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("Dice game", onClick: () {
               Navigator.pushNamed(context, '/dice_game');
             }),
           ),
@@ -82,11 +70,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("Ask Me Anything",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("Ask Me Anything", onClick: () {
               Navigator.pushNamed(context, '/ask_me_anything');
             }),
           ),
@@ -98,11 +82,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("Xylophone",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("Xylophone", onClick: () {
               Navigator.pushNamed(context, '/xylophone_home');
             }),
           ),
@@ -114,11 +94,7 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("Quizzler",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("Quizzler", onClick: () {
               Navigator.pushNamed(context, '/quizzler');
             }),
           ),
@@ -130,12 +106,20 @@ class _LandingScreenState extends State<LandingScreen> {
           child: Container(
             height: hp(6),
             width: wp(60),
-            child: AppStyles.button("Destiny",
-                textColor: AppColors.deepChapagne,
-                fontWeight: FontWeight.w600,
-                fontSize: AppStyles.fontSize(17),
-                radius: 0, onClick: () {
+            child: AppStyles.button("Destiny", onClick: () {
               Navigator.pushNamed(context, '/destiny');
+            }),
+          ),
+        ),
+        SizedBox(
+          height: wp(6),
+        ),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("BMI Calculator", onClick: () {
+              Navigator.pushNamed(context, '/bmi_calculator');
             }),
           ),
         )
