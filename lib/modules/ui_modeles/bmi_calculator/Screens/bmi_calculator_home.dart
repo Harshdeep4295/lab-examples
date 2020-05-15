@@ -3,12 +3,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:lab_experiments/appstyles/app_colors.dart';
 import 'package:lab_experiments/appstyles/app_constants.dart';
 import 'package:lab_experiments/appstyles/app_styles.dart';
-import 'package:lab_experiments/modules/bmi_calculator/Screens/bmi_calculator_result.dart';
-import 'package:lab_experiments/modules/bmi_calculator/calculator_brain.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/bottom_button.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/icon_button.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/icon_text_widget.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/reuasable_card.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/Screens/bmi_calculator_result.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/calculator_brain.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/bottom_button.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/icon_button.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/icon_text_widget.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/reuasable_card.dart';
 
 class BMICalculator extends StatefulWidget {
   @override

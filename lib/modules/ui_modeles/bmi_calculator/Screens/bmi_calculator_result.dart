@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lab_experiments/appstyles/app_colors.dart';
 import 'package:lab_experiments/appstyles/app_styles.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/bottom_button.dart';
-import 'package:lab_experiments/modules/bmi_calculator/components/reuasable_card.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/bottom_button.dart';
+import 'package:lab_experiments/modules/ui_modeles/bmi_calculator/components/reuasable_card.dart';
 
 class BMIResultPage extends StatelessWidget {
   final String result;

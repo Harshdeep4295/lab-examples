@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab_experiments/modules/live_weather/utilities/constants.dart';
+import 'package:lab_experiments/modules/ui_modeles/live_weather/utilities/constants.dart';
 
 class CityScreen extends StatefulWidget {
   @override

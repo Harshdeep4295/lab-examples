@@ -1,4 +1,6 @@
-import 'package:lab_experiments/modules/quizzare/models/question_and_answer.dart';
+
+
+import 'package:lab_experiments/modules/ui_modeles/quizzare/models/question_and_answer.dart';
 
 class QuizBrain {
   int _questionNumber = 0;
