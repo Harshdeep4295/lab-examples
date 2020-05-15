@@ -122,6 +122,18 @@ class _LandingScreenState extends State<LandingScreen> {
               Navigator.pushNamed(context, '/bmi_calculator');
             }),
           ),
+        ),
+          SizedBox(
+          height: wp(6),
+        ),
+        Center(
+          child: Container(
+            height: hp(6),
+            width: wp(60),
+            child: AppStyles.button("Live Weather", onClick: () {
+              Navigator.pushNamed(context, '/live_weather');
+            }),
+          ),
         )
       ],
     ));

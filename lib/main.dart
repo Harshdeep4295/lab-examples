@@ -6,6 +6,7 @@ import 'package:lab_experiments/modules/bmi_calculator/Screens/bmi_calculator_ho
 import 'package:lab_experiments/modules/destiny/destiny_home.dart';
 import 'package:lab_experiments/modules/dice/dice_game_home.dart';
 import 'package:lab_experiments/modules/i_am_rich/i_am_rich_home.dart';
+import 'package:lab_experiments/modules/live_weather/screens/loading_screen.dart';
 import 'package:lab_experiments/modules/mi_card/mi_card_home.dart';
 import 'package:lab_experiments/modules/quizzare/quizarre_home.dart';
 import 'package:lab_experiments/modules/xylophone/xylophone_home.dart';
@@ -29,7 +30,10 @@ class _AppState extends State<App> {
         primaryColor: AppColors.darkColor,
         accentColor: AppColors.paradisePink,
         scaffoldBackgroundColor: AppColors.darkColor,
-        appBarTheme: AppBarTheme(color: AppColors.darkColor,brightness: Brightness.light,),
+        appBarTheme: AppBarTheme(
+          color: AppColors.darkColor,
+          brightness: Brightness.light,
+        ),
       ),
       home: LandingScreen(),
       routes: {
@@ -41,6 +45,7 @@ class _AppState extends State<App> {
         '/quizzler': (context) => Quizzler(),
         '/destiny': (context) => Destiny(),
         '/bmi_calculator': (context) => BMICalculator(),
+        '/live_weather': (context) => LoadingScreen(),
       },
     );
   }
