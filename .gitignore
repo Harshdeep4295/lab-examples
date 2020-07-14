@@ -92,7 +92,7 @@ unlinked_spec.ds
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
-
+**/ios/Flutter/.last_build_id 
 # Coverage
 coverage/
 
@@ -103,3 +103,8 @@ coverage/
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+#remove google credentials
+*/GoogleService-Info.plist
+GoogleService-Info.plist
+**/ios/Runnder/GoogleService-Info.plist
