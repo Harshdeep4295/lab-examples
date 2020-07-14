@@ -21,7 +21,7 @@ class BottomButton extends StatelessWidget {
         color: AppColors.pinkDarkColor,
         child: Center(
           child: AppStyles.textwidget(title,
-              fontSize: AppStyles.fontSize(25),
+              fontSize:  25,
               color: AppColors.white,
               fontWeight: FontWeight.bold),
         ),

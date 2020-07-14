@@ -10,7 +10,6 @@ class ArchModule extends StatefulWidget {
 class _ArchModuleState extends State<ArchModule> {
   @override
   Widget build(BuildContext context) {
-    Function hp = Screen(MediaQuery.of(context).size).hp;
     Function wp = Screen(MediaQuery.of(context).size).wp;
 
     final body = SingleChildScrollView(

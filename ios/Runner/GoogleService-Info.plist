@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>928038643550-5s2kv7hndarecm2j7a77oq70oe3rnudi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.928038643550-5s2kv7hndarecm2j7a77oq70oe3rnudi</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>928038643550-6krga171p4e8jq98t3tl0rafno6clq2c.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzWemYvsKJoPXLBZiRC7UulFTgcAAPguY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>928038643550</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.experiments.lab</string>
+	<key>PROJECT_ID</key>
+	<string>lab-experiments-b68e2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lab-experiments-b68e2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:928038643550:ios:dfdacc073b441a918511cf</string>
+	<key>DATABASE_URL</key>
+	<string>https://lab-experiments-b68e2.firebaseio.com</string>
+</dict>
+</plist>

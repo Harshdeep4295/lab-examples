@@ -71,7 +71,7 @@ class _BMICalculatorState extends State<BMICalculator> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 AppStyles.textwidget("HEIGHT",
-                    fontSize: AppStyles.fontSize(18),
+                    fontSize:  18,
                     color: AppColors.greyLight),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -79,11 +79,11 @@ class _BMICalculatorState extends State<BMICalculator> {
                   textBaseline: TextBaseline.alphabetic,
                   children: <Widget>[
                     AppStyles.textwidget(height.toString(),
-                        fontSize: AppStyles.fontSize(50),
+                        fontSize:  50,
                         color: AppColors.white,
                         fontWeight: FontWeight.w900),
                     AppStyles.textwidget("cm",
-                        fontSize: AppStyles.fontSize(18),
+                        fontSize:  18,
                         color: AppColors.greyLight)
                   ],
                 ),
@@ -121,13 +121,13 @@ class _BMICalculatorState extends State<BMICalculator> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     AppStyles.textwidget("WEIGHT",
-                        fontSize: AppStyles.fontSize(18),
+                        fontSize:  18,
                         color: AppColors.greyLight),
                     SizedBox(
                       height: AppStyles.height(10),
                     ),
                     AppStyles.textwidget(weight.toString(),
-                        fontSize: AppStyles.fontSize(50),
+                        fontSize:  50,
                         color: AppColors.white,
                         fontWeight: FontWeight.w900),
                     SizedBox(
@@ -165,13 +165,13 @@ class _BMICalculatorState extends State<BMICalculator> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     AppStyles.textwidget("AGE",
-                        fontSize: AppStyles.fontSize(18),
+                        fontSize:  18,
                         color: AppColors.greyLight),
                     SizedBox(
                       height: AppStyles.height(10),
                     ),
                     AppStyles.textwidget(age.toString(),
-                        fontSize: AppStyles.fontSize(50),
+                        fontSize:  50,
                         color: AppColors.white,
                         fontWeight: FontWeight.w900),
                     SizedBox(

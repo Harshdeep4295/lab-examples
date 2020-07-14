@@ -55,9 +55,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
           showUnselectedLabels: true,
           showSelectedLabels: true,
           selectedLabelStyle:
-              AppStyles.textStyle(AppColors.activeCard, AppStyles.fontSize(12)),
+              AppStyles.textStyle(AppColors.activeCard, 12),
           unselectedLabelStyle:
-              AppStyles.textStyle(AppColors.black, AppStyles.fontSize(12)),
+              AppStyles.textStyle(AppColors.black, 12),
           selectedItemColor: AppColors.antiqueBrass,
           unselectedItemColor: AppColors.black,
           onTap: (index) {

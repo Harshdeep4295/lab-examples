@@ -11,10 +11,10 @@ class AppStyles {
     return ScreenUtil().setHeight(height);
   }
 
-  static num fontSize(num fontSize, {bool allowFontScalingSelf}) {
-    return ScreenUtil()
-        .setSp(fontSize, allowFontScalingSelf: allowFontScalingSelf);
-  }
+  // static num fontSize(num fontSize, {bool allowFontScalingSelf}) {
+  //   return ScreenUtil()
+  //       .setSp(fontSize, allowFontScalingSelf: allowFontScalingSelf);
+  // }
 
   static TextStyle textStyle(Color color, double fontSize,
       {FontWeight fontWeight,
@@ -29,7 +29,7 @@ class AppStyles {
         fontWeight: fontWeight == null ? FontWeight.w500 : fontWeight,
         fontStyle: fontStyle == null ? FontStyle.normal : fontStyle,
         height: heightInline == null ? 1 : heightInline,
-        letterSpacing: letterSpacing !=null?letterSpacing:1,
+        letterSpacing: letterSpacing != null ? letterSpacing : 1,
         fontFamily: fontFamily != null ? fontFamily : 'Source Sans Pro',
         decoration: decoration != null ? decoration : TextDecoration.none);
   }
@@ -45,12 +45,8 @@ class AppStyles {
       double heightInline}) {
     return Text(
       text,
-      style: textStyle(
-          color,
-          fontSize == null
-              ? AppStyles.fontSize(22)
-              : AppStyles.fontSize(fontSize),
-          fontWeight: fontWeight == null ? FontWeight.w600 : fontWeight,
+      style: textStyle(color, fontSize == null ? 20 : fontSize,
+          fontWeight: fontWeight == null ? FontWeight.w500 : fontWeight,
           fontStyle: fontStyle,
           fontFamily: fontFamily,
           letterSpacing: letterSpacing,
@@ -115,10 +111,8 @@ class AppStyles {
           softWrap: false,
           style: textStyle(
             textColor,
-            fontSize == null
-                ? AppStyles.fontSize(16)
-                : AppStyles.fontSize(fontSize),
-            fontWeight: fontWeight == null ? FontWeight.w600 : fontWeight,
+            fontSize == null ? 16 : fontSize,
+            fontWeight: fontWeight == null ? FontWeight.w500 : fontWeight,
           ),
         ),
       ),

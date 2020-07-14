@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "928038643550",
+    "firebase_url": "https://lab-experiments-b68e2.firebaseio.com",
+    "project_id": "lab-experiments-b68e2",
+    "storage_bucket": "lab-experiments-b68e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928038643550:android:68efbf97a4d47b3c8511cf",
+        "android_client_info": {
+          "package_name": "com.experiments.lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928038643550-6krga171p4e8jq98t3tl0rafno6clq2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.experiments.lab",
+            "certificate_hash": "298ab4b3a620ee007b0928219e0c3f4ef3ade990"
+          }
+        },
+        {
+          "client_id": "928038643550-o07cai3ho5hjdeo2rk2j5ud143knv5r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtZugG2_ATirmDgo07tT-YlPn9q2k5tCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928038643550-o07cai3ho5hjdeo2rk2j5ud143knv5r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
